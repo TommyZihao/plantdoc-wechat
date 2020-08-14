@@ -9,4 +9,4 @@ AI Challenge 2018竞赛，农作物病虫害公开图像数据集： https://cha
 
 [使用Pytorch进行图像分类，AI challenger 农作物病害分类竞赛源码解读](https://www.cnblogs.com/ywheunji/p/10118708.html)
 
-[AI challenger 2018图片分类比赛—农作物病害检测](
+[AI challenger 2018图片分类比赛—农作物病害检测](https://blog.csdn.net/JinbaoSite/article/details/85037445)
