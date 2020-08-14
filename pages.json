@@ -1,0 +1,110 @@
+{
+    "pages": [{
+        "path": "pages/home/home",
+        "style": {}
+    }, {
+        "path": "pages/activity/activity",
+        "style": {}
+    }, {
+        "path": "pages/user/user",
+        "style": {}
+    }, {
+        "path": "pages/home/result",
+        "style": {}
+    }, {
+        "path": "pages/user/sample",
+        "style": {}
+    }, {
+        "path": "pages/user/history",
+        "style": {}
+    }, {
+        "path": "pages/user/about",
+        "style": {}
+    }    ,{
+            "path" : "pages/activity/web-page",
+            "style" : {}
+        }
+    ],
+    "tabBar": {
+        "color": "#AAAAAA",
+        "selectedColor": "#39B54A",
+        "borderStyle": "white",
+        "backgroundColor": "#FFFFFF",
+        "list": [{
+                "pagePath": "pages/home/home",
+                "iconPath": "static/tabbar/camera.png",
+                "selectedIconPath": "static/tabbar/camera-active.png",
+                "text": "识农害"
+            },
+            {
+                "pagePath": "pages/activity/activity",
+                "iconPath": "static/tabbar/activity.png",
+                "selectedIconPath": "static/tabbar/activity-active.png",
+                "text": "动态"
+            },
+            {
+                "pagePath": "pages/user/user",
+                "iconPath": "static/tabbar/user.png",
+                "selectedIconPath": "static/tabbar/user-acive.png",
+                "text": "我的"
+            }
+        ]
+    },
+    "globalStyle": {
+        "mp-alipay": {
+            /* 支付宝小程序特有相关 */
+            "transparentTitle": "always",
+            "allowsBounceVertical": "NO"
+        },
+        "navigationBarBackgroundColor": "#39b54a",
+        "navigationBarTitleText": "识农害",
+        "navigationStyle": "custom",
+        "navigationBarTextStyle": "white"
+    },
+    "usingComponts": true,
+    "condition": { //模式配置，仅开发期间生效
+        "current": 2, //当前激活的模式(list 的索引项)
+        "list": [{
+                "name": "识农害", //模式名称
+                "path": "pages/home/home", //启动页面
+                "query": "" //启动参数
+            },
+            {
+                "name": "动态", //模式名称
+                "path": "pages/activity/activity", //启动页面
+                "query": "" //启动参数
+            },
+            {
+                "name": "识别结果", //模式名称
+                "path": "pages/home/result", //启动页面
+                "query": "photo=http://tmp/wx60b5595312a3f96d.o6zAJszNN7Bb5doQrEs8EKu9z2cw.uy4eO4fnvIu3adc8eed9a524e58b42f5eb318f1a7939.jpg&uploadRes=https://pic.imgdb.cn/item/5e947c67c2a9a83be5188b2e.jpg" //启动参数
+            },
+            {
+                "name": "识别结果(历史记录)", //模式名称
+                "path": "pages/home/result", //启动页面
+                "query": "_id=3a573aaa5e948a97007f36ec3c84d633" //启动参数
+            },
+            {
+                "name": "示例图片", //模式名称
+                "path": "pages/user/sample", //启动页面
+                "query": "" //启动参数
+            },
+            {
+                "name": "诊断历史", //模式名称
+                "path": "pages/user/history", //启动页面
+                "query": "" //启动参数
+            },
+            {
+                "name": "我的", //模式名称
+                "path": "pages/user/user", //启动页面
+                "query": "" //启动参数
+            },
+            {
+                "name": "关于我们", //模式名称
+                "path": "pages/user/about", //启动页面
+                "query": "" //启动参数
+            }
+        ]
+    }
+
+}

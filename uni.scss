@@ -1,0 +1,29 @@
+/* color ui 颜色 */
+$cu-color-red: #e54d42; // 嫣红
+$cu-color-orange: #f37b1d; // 桔橙
+$cu-color-yellow: #fbbd08; // 明黄
+$cu-color-olive: #8dc63f; // 橄榄
+$cu-color-green: #39b54a; // 森绿
+$cu-color-cyan: #1cbbb4; // 天青
+$cu-color-blue: #0081ff; // 海蓝
+$cu-color-purple: #6739b6; // 姹紫
+$cu-color-mauve: #9c26b0; // 木槿
+$cu-color-pink: #e03997; // 桃粉
+$cu-color-brown: #a5673f; // 棕褐
+$cu-color-grey: #8799a3; // 玄灰
+$cu-color-gray: #aaaaaa; // 草灰
+$cu-color-black: #333333; // 墨黑
+$cu-color-white: #ffffff; // 雅白
+
+/* 小程序配色 */
+$app-color-primary: $cu-color-green;
+$page-bg: #f1f1f1;
+
+/* 全局样式 */
+.full-width {
+    width: 100%;
+}
+.full-screen-width {
+    width: 100vw;
+    box-sizing: border-box;
+}
